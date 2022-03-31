@@ -1,0 +1,39 @@
+@font-face{
+    font-family:Persion;
+    src: url(IranNastaliq.woff);
+}
+label{
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    margin: -27px 47px;
+}
+
+input{
+    display: block;
+    width: 40%;
+    margin: 6px 60px;
+}
+.radio1{
+    display: inline;
+    width: 10px;  
+}
+#btn{
+    width: 20%;
+    margin-left:27%;
+    height: 30px;
+    background-color: black;
+    color: #eee;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.footer{
+    font-family:Persion;
+    background-color: #ddd;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 22px;
+}

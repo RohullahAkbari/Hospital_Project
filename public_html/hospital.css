@@ -1,0 +1,97 @@
+@font-face{
+    font-family:Persion;
+    src: url(IranNastaliq.woff);
+}
+body{
+    font-family: Persion;
+    text-align: center;
+    margin: 0;
+}
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 110%;
+}
+a#home{
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+#bilding{
+    height: 90%;
+    width: 100%;
+}
+.welcome{
+    margin: auto;
+    font-size: xx-large;
+    font-family: Persion;
+    background-color:  #ddd;
+}
+#welcom-text{
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+p.picture{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: 100px;
+    margin: auto;
+    padding: 15px;
+    font-size: 16px;
+    font-family:monospace; 
+    
+}
+a.pictuers {
+  text-decoration: none;  
+}
+img{
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+.get-turn{
+    position: relative;
+    background-color: darkred;
+    color: #eee;
+    height: 210px;
+    font-size: 32px;
+}
+#text-turn{
+    padding: 8px;
+    margin: 10px
+}
+#turn{
+    position: absolute;
+    background-color: mintcream;
+    color: black;
+    right: 575px;
+    top: 95px;
+    padding: 5px;
+    text-decoration: none;
+}
+.footer{
+    font-family:Persion;
+    background-color: #ddd;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 22px;
+}
+#host{
+    display: flex;
+    justify-content: space-around;
+}

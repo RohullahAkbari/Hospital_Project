@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face{
+    font-family:Persion;
+    src: url(IranNastaliq.woff);
+}
+            form{
+                font-family: Persion;
+                text-align: right;
+            }
+            .topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 110%;
+}
+a#home{
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.Input{
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+}
+label{
+    font-size: 20px;
+    margin: 20px;
+}
+#list{
+    margin: 20px;
+    width: 40%;
+}
+select{
+    margin-right: 40px;
+    margin-top: 20px;
+    height: 20px;
+    font-size: 18px;
+}
+#btn{
+    margin: 30px;
+    background-color: #aaa;
+    width: 30%;
+    height: 40px;
+    border: 0;
+}
+.footer{
+    background-color: #ddd;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+        </style>
+        <script>
+            function clicked(){
+                alert("تشکر از پشنهاد شما");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="topnav">
+           
+            <a href="index.html" id="home">خانه</a>
+            <a href="#call">ارتباط با ما</a>
+            <a href="workWithUs.html">همکاری با ما</a>
+            <a href="aboutUs.html">درباره ما</a>
+            
+        </div>
+        
+        <form>
+            
+            <input class="Input" type="text" placeholder="نام" required><br>
+            
+            <input class="Input" type="text" placeholder="فامیلی" required><br>
+            <label>زمینه طرح پشنهادی شما کدام است؟ </label><br>
+            <select>
+                <option>افزایش کیفیت و کمیت خدمات</option>
+                <option>بهبود امور رفاهی  کارکنان</option>
+                <option>سرعت بخشیدن به عملیات و خدمات ارایه شده</option>
+                <option>ابداع روشهای تازه برای افزایش رضایت و خشنودی مراجعات</option>
+                <option>دلپذیر تر کردن محیط کار و بسط روابط انسانی</option>
+            </select>
+            <textarea class="Input" placeholder="لطفا مشکل ونحو اجرای پشنهادی خود را توضیح دهید"></textarea><br>
+            <input id="btn" type="submit" value="ارسال پیام" onclick="clicked()">
+            
+        </form>
+        
+                <footer class="footer">
+            <pre><a id="call">ارتباط با ما</a>
+                <hr>
+                
+                افغانستان,کابل , کوته سنگی, شفاخانه تخصصی و فوق تخصصی کسری کابل<br>
+                kasra_hospital@gmail.com<br>
+                +937707786489<br>
+                +938790987877<br>
+            
+            </pre>
+            <pre >
+               رسالت شفاخانه کسری
+                <hr>
+                بیمارستان کسری به عنوان یک بیمارستان خصوصی با اتکا به اصول
+                علمی و پیشرفته پزشکی و با اجرای قوانین و مقررات وزارت متبوع
+                ارائه دهنده بالاترین سطح خدمات ایمن درمانی، تشخیصی و توانبخشی
+                و بهداشتی به کلیه مراجعین محترم می باشد به نحوی که این خدمات
+                منجر به بهترین نتیجه درمانی و ارتقاء سطح سلامت جامعه و بالاترین
+                رضایت مراجعین گردد.
+            </pre>
+        </footer>
+    </body>
+</html>

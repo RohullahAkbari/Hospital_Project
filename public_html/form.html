@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            hr,h2{
+               width: 90%; 
+               text-align: center;
+            }
+            label{
+                padding: 77px;
+                margin-top: 30px;
+                
+            }
+            input.textType{
+                width: 90%;
+                height: 35px;
+                margin-left: 75px; 
+                margin-bottom: 20px; 
+                
+            }
+            .radios{
+                margin-left: 75px;
+                margin-top: 10px
+            }
+            textArea{
+                width: 90%;
+                height: 90px;
+                margin-left: 75px;
+                border: 0;
+            }
+            .bolds{
+                font-weight: bold;
+            }
+            #btn{
+                width: 85%;
+                height: 35px;
+                margin-left: 75px;
+                margin-top: 20px;
+                background-color: green;
+                color: #eee;
+                border: 0;
+            }
+        </style>
+        <script>
+            function clicked(){
+                const turn=[12554,344456,45777,555788,454547,343439,223288];
+                var dateNum=["1401/1/22","1401/1/2","1401/1/23","1401/1/9","1401/1/5","1401/1/21"];
+                const randomNum=Math.floor(Math.random()* turn.length);
+                const randomdate=Math.floor(Math.random()* dateNum.length);
+                alert("you are rigestered and you number is: "+turn[randomNum]+"  "+ dateNum[randomdate]);
+            }
+            
+        </script>
+    </head>
+    <body>
+       <form action="">
+            <h2>فورم ثبت نام</h2>
+            <hr>
+            <label>
+                نام:
+            </label><br>
+            <input class="textType" type="text" placeholder="Firstname" required><br>
+           
+            <label>
+                تخلص:
+            </label><br>
+            <input class="textType" type="text" placeholder="Lastname" required><br>
+            
+            
+            <label>
+                جنسیت:
+            </label><br>
+            
+            <div class="radios">
+                
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+            
+            </div><br>
+            
+                <input id="btn" type="submit" value="ارسال" onclick="clicked()">
+                <p></p>
+        </form>
+    </body>
+</html>
